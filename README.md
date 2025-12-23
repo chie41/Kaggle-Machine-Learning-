@@ -86,5 +86,4 @@ P_final = wx·XGB + wl·LGBM + wr·RF + wc·CAT
 | **Ensemble** | **0.472** | **0.45** | **0.50** | **0.217** |
 
 - **Public Leaderboard:** 0.5833
-- **Private Leaderboard:** 0.5694  
 
