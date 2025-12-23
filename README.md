@@ -63,7 +63,7 @@ Mỗi object gồm:
 
 Sử dụng 4 mô hình chính:
 
-| Model | Ghi chú |
+| Model | Lý do chọn |
 |-------|---------|
 | XGBoost | Vì lightcurve nhiều biến động khiến modal dễ overfit nên chọn XGBoost để khắc phục |
 | LightGBM | 366 features rất nặng cần mô hình học nhanh  |
