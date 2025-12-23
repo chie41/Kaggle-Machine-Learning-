@@ -70,7 +70,7 @@ Tree-based sử dụng 4 mô hình chính:
 | RandomForest | Ổn định, không nhạy với nhiễu, Tạo diversity cho ensemble |
 | CatBoost | Flux thay đổi thất thường, các band có thể thiếu (u/g/r không đủ điểm) |
 
-### ✔ Ensemble theo công thức:
+### Ensemble theo công thức:
 P_final = wx·XGB + wl·LGBM + wr·RF + wc·CAT
 
 ### Thresholad tối ưu tìm được: 
