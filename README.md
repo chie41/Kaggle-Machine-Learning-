@@ -65,7 +65,7 @@ Tree-based sử dụng 4 mô hình chính:
 
 | Model | Lý do chọn |
 |-------|---------|
-| XGBoost | Vì lightcurve nhiều biến động khiến modal dễ overfit nên chọn XGBoost để khắc phục |
+| XGBoost | Vì lightcurve nhiều biến động khiến model dễ overfit nên chọn XGBoost để khắc phục |
 | LightGBM | 366 features rất nặng cần mô hình học nhanh  |
 | RandomForest | Ổn định, không nhạy với nhiễu, Tạo diversity cho ensemble |
 | CatBoost | Flux thay đổi thất thường, các band có thể thiếu (u/g/r không đủ điểm) |
@@ -73,7 +73,8 @@ Tree-based sử dụng 4 mô hình chính:
 ### ✔ Ensemble theo công thức:
 P_final = wx·XGB + wl·LGBM + wr·RF + wc·CAT
 
-###Thresholad tối ưu tìm được: 0.217
+### Thresholad tối ưu tìm được: 
+Sau khi quét mẹn từ 0.05 -> 0.3 ta tìm được threshold tối ưu = 0.217
 
 ## 5. Kết quả
 
