@@ -73,6 +73,8 @@ Sử dụng 4 mô hình chính:
 ### ✔ Ensemble theo công thức:
 P_final = wx·XGB + wl·LGBM + wr·RF + wc·CAT
 
+###Thresholad tối ưu tìm được: 0.217
+
 ## 5. Kết quả
 
 | Model        | CV F1  | Precision | Recall | Threshold |
