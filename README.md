@@ -74,7 +74,7 @@ Tree-based sử dụng 4 mô hình chính:
 P_final = wx·XGB + wl·LGBM + wr·RF + wc·CAT
 
 ### Thresholad tối ưu tìm được: 
-Sau khi quét mẹn từ 0.05 -> 0.3 ta tìm được threshold tối ưu = 0.217
+Sau khi quét mịn từ 0.05 -> 0.3 ta tìm được threshold tối ưu = 0.217
 
 ## 5. Kết quả
 
