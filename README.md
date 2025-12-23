@@ -61,7 +61,7 @@ Mỗi object gồm:
 
 ## 4. Mô hình
 
-Sử dụng 4 mô hình chính:
+Tree-based sử dụng 4 mô hình chính:
 
 | Model | Lý do chọn |
 |-------|---------|
