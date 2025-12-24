@@ -1,4 +1,9 @@
 # MALLORN: Phân Loại Tidal Disruption Event (TDE)
+Các thành viên nhóm 9:
+- Nguyễn Khánh Tùng - 23021713
+- Phạm Việt Hà - 23021541
+- Đinh Công Minh - 23021625
+
 ##  1. Tổng quan
 
 **TDE (Tidal Disruption Event)** là sự kiện khi một ngôi sao bị xé rách bởi siêu lỗ đen.  
